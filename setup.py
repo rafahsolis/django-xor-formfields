@@ -9,7 +9,7 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
-    name='django-xor-formfields',
+    name='django_xor_formfields',
 
     version='0.1.0',
 

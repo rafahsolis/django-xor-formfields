@@ -22,7 +22,7 @@ class URLInput(Input):
 
 
 class MutuallyExclusiveRadioWidget(MultiWidget):
-    def render(self, name, value, attrs=None):
+    def render(self, name, value, attrs=None, renderer=None):
         if self.is_localized:
             for widget in self.widgets:
                 widget.is_localized = self.is_localized
